@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    android:orientation="vertical"
+    tools:context=".Admin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/acme_regular"
+        android:gravity="center"
+        android:text="Admins"
+        android:textColor="#F80C0B0B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/allerta"
+        android:text="Admin 1: \nName: Umma Aymon\nEmail: ummaaymon@gmail.com\nMobile No: 01521532559"
+        android:textColor="#F80C0B0B"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/allerta"
+        android:text="Admin 2: \nName: Jafrin Iqbal Chowdhury\nEmail: jafrinchowdhury807978@gmail.com\nMobile No: 01867942332"
+        android:textColor="#F80C0B0B"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/allerta"
+        android:text="Admin 3: \nName: Shahanaz Ahmed Nishi\nEmail: nnishi039@gmail.com \nMobile No: 01846028146"
+        android:textColor="#F80C0B0B"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

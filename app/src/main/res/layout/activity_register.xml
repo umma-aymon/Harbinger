@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sky"
+    android:orientation="vertical"
+    tools:context="com.androidchatapp.Register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/acme_regular"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="#F80C0B0B"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_face_black_24dp"
+        android:drawablePadding="5dp"
+        android:fontFamily="casual"
+        android:hint=" Full Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="5dp"
+        android:fontFamily="casual"
+        android:hint="Matric No."
+        android:inputType="text"
+        android:maxLines="1"
+        android:textStyle="bold" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username_text_input_layout"
+        app:passwordToggleEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/aladin_regular"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="5dp"
+        android:fontFamily="casual"
+        android:hint="Mobile No"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_home_black_24dp"
+        android:drawableLeft="@drawable/ic_home_black_24dp"
+        android:drawablePadding="5dp"
+        android:fontFamily="casual"
+        android:hint="Address"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#3B29292C"
+        android:fontFamily="@font/acme_regular"
+        android:text="Register here"
+        android:textColor="#F80C0B0B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme_regular"
+        android:gravity="center"
+        android:text="Click here to Login"
+        android:textColor="#F80C0B0B"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
